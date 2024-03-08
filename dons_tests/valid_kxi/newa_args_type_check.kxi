@@ -1,0 +1,6 @@
+class MyClass {
+    MyClass(int a, char b) {}
+}    
+void main(){
+    MyClass A = new MyClass(1, 'c');
+}

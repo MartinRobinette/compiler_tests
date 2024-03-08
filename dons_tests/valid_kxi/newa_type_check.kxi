@@ -1,0 +1,4 @@
+class MyClass {}    
+void main(){
+    MyClass A = new MyClass();
+}

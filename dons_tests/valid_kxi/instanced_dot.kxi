@@ -1,0 +1,7 @@
+class MyClass {
+    public int x;
+}
+void main(){
+    MyClass c = new MyClass();
+    int y = c.x;
+}

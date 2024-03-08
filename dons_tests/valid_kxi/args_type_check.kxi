@@ -1,0 +1,6 @@
+class MyClass {
+    static public void func(int a, char b) {}
+}    
+void main(){
+    MyClass.func(1, 'c');
+}

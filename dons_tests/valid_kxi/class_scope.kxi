@@ -1,0 +1,13 @@
+class MyClass { 
+    public int x;
+    static public char y;
+    MyClass(int a, int b) {}
+    public int[] myfunc() {}
+}
+class MyClass2 { 
+    public int x;
+    static public char y;
+    MyClass2(int a, int b) {}
+    public string main() {}
+}
+void main(){}

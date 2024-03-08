@@ -1,0 +1,4 @@
+void main(){
+    int j = 4;
+    char j = 'j';
+}

@@ -1,0 +1,6 @@
+class MyClass {
+    static public void myfunc() {
+        main();
+    }
+}
+void main(){}

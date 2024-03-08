@@ -1,0 +1,9 @@
+void main(){
+    int x;
+    char y;
+    cin >> x;
+    cin >> y;
+    cout << 'c';
+    cout << 1;
+    cout << \"thing\";
+}

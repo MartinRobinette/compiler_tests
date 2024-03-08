@@ -1,0 +1,8 @@
+class MyClass { 
+    public int x;
+    MyClass(int a, int b) {}
+    public void myfunc() {
+        x = 4;
+    }
+}
+void main(){}

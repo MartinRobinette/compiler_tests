@@ -1,0 +1,5 @@
+class MyClass {
+    private int x = 4;
+    private int y = this.x + 1;
+}
+void main(){}

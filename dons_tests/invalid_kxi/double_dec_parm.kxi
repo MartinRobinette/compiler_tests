@@ -1,0 +1,6 @@
+class MyClass { 
+    public void myfunc(int x) {
+        string x = \"oops\";
+    }
+}
+void main(){}

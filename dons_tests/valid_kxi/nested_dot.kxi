@@ -1,0 +1,7 @@
+class MyClass {
+    public int x;
+    static public MyClass myfunc() {}
+}
+void main(){
+    MyClass.myfunc().x;
+}

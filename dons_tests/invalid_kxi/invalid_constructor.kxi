@@ -1,0 +1,7 @@
+class MyClass { 
+    public int x;
+    static public char y;
+    derp(int a, int b) {}
+    public int[] myfunc() {}
+}
+void main(){}

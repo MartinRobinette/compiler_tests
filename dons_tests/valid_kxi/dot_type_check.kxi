@@ -1,0 +1,9 @@
+class MyClass {
+    public int x = 4;
+    public void func() {}
+}    
+void main(){
+    MyClass A = new MyClass();
+    A.func();
+    int x = A.x;
+}

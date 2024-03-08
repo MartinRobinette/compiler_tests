@@ -1,0 +1,5 @@
+void main(){
+    string x;
+    cin >> x;
+    cout << true;
+}

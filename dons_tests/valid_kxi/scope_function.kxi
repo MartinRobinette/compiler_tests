@@ -1,0 +1,7 @@
+class MyClass { 
+    public void myfunc() {
+        int x = 4;
+        x = 5;
+    }
+}
+void main(){}

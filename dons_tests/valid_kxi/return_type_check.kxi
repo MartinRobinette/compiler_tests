@@ -1,0 +1,10 @@
+class MyClass {
+    static public int func(){
+        return 1;
+    }
+    static public void func2(){}
+    static public void func3(){
+        return;
+    }
+}    
+void main(){}

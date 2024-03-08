@@ -1,0 +1,10 @@
+void main(){
+    int x;
+    char y;
+    string z;
+    bool b;
+    x = 1;
+    y = 'c';
+    z = \"string\";
+    b = true;
+}

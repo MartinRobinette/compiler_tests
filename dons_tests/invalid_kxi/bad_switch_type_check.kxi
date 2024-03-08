@@ -1,0 +1,8 @@
+void main(){
+    int x = 1;
+    switch (x) {
+        case 'c': x = x+1;
+        case 2: x = x+2;
+        default: x = x;
+    }
+}

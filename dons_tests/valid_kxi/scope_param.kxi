@@ -1,0 +1,6 @@
+class MyClass { 
+    public void myfunc(int x) {
+        return x + 1;
+    }
+}
+void main(){}

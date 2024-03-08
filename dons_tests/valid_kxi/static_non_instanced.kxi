@@ -1,0 +1,9 @@
+class MyClass {
+    static public int x;
+    static public int myfunc() {
+        return x + 1;
+    }
+}
+void main(){
+    MyClass.x = MyClass.myfunc();
+}

@@ -1,0 +1,17 @@
+void main(){
+    int x = 1;
+    char y = 'c';
+    switch (x) {
+        case 1: x = x+1;
+        case 2: x = x+2;
+        default: x = x;
+    }
+    switch (y) {
+        case 'c': true;
+        case 'q': false;
+        default: false;
+    }
+    switch (x) {
+        default: x = 0;
+    }
+}

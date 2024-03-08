@@ -1,0 +1,8 @@
+class MyClass { 
+    public int x;
+    static public char y;
+    MyClass(int a, int b) {}
+    public int[] myfunc() {}
+    public string myfunc() {}
+}
+void main(){}
