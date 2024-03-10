@@ -5,6 +5,6 @@ void main(){
     bool b;
     x = 1;
     y = 'c';
-    z = \"string\";
+    z = "string";
     b = true;
 }

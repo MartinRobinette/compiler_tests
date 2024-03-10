@@ -1,10 +1,10 @@
 void main(){
     int x = 1;
     char y = 'c';
-    string z = \"string\";
+    string z = "string";
     bool b = true;
     x >= 1;
     y <= 'a';
-    z == \"string\";
+    z == "string";
     b != false;
 }

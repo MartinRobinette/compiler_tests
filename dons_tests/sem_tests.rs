@@ -305,7 +305,7 @@ fn test_double_dec_parm() {
         .parse(tok_gen(
             "class MyClass { 
                 public void myfunc(int x) {
-                    string x = \"oops\";
+                    string x = "oops";
                 }
             }
             void main(){}
@@ -606,7 +606,7 @@ fn dec_type_check() {
             "void main(){
                 int x = 1;
                 char y = 'c';
-                string z = \"string\";
+                string z = "string";
                 bool b = true;
             }
         ",
@@ -631,7 +631,7 @@ fn bad_dec_type_check() {
             "void main(){
                 bool x = 1;
                 int y = 'c';
-                char z = \"string\";
+                char z = "string";
                 string b = true;
             }
         ",
@@ -660,7 +660,7 @@ fn assign_type_check() {
                 bool b;
                 x = 1;
                 y = 'c';
-                z = \"string\";
+                z = "string";
                 b = true;
             }
         ",
@@ -689,7 +689,7 @@ fn bad_assign_type_check() {
                 bool b;
                 b = 1;
                 x = 'c';
-                y = \"string\";
+                y = "string";
                 z = true;
             }
         ",
@@ -762,11 +762,11 @@ fn comp_type_check() {
             "void main(){
                 int x = 1;
                 char y = 'c';
-                string z = \"string\";
+                string z = "string";
                 bool b = true;
                 x >= 1;
                 y <= 'a';
-                z == \"string\";
+                z == "string";
                 b != false;
             }
         ",
@@ -791,10 +791,10 @@ fn bad_comp_type_check() {
             "void main(){
                 int x = 1;
                 char y = 'c';
-                string z = \"string\";
+                string z = "string";
                 bool b = true;
                 x == y;
-                z <= \"string\";
+                z <= "string";
                 b >= false;
             }
         ",
@@ -844,7 +844,7 @@ fn bad_logic_type_check() {
             "void main(){
                 int x = 1;
                 x >= 1 || 5;
-                \"apple\" && x == 1;
+                "apple" && x == 1;
             }
         ",
         ))
@@ -922,7 +922,7 @@ fn io_type_check() {
                 cin >> y;
                 cout << 'c';
                 cout << 1;
-                cout << \"thing\";
+                cout << "thing";
             }
         ",
         ))

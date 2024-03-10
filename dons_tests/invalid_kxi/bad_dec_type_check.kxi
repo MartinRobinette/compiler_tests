@@ -1,5 +1,5 @@
 void main(){ bool x = 1;
     int y = 'c';
-    char z = \"string\";
+    char z = "string";
     string b = true;
 }

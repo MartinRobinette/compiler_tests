@@ -5,5 +5,5 @@ void main(){
     cin >> y;
     cout << 'c';
     cout << 1;
-    cout << \"thing\";
+    cout << "thing";
 }
