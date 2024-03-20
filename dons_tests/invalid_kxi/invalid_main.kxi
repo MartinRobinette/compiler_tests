@@ -1,8 +1,0 @@
-
-            class MyClass { 
-                public int x;
-                static public char y;
-                MyClass(int a, int b) {}
-                public int[] myfunc() {}
-            }
-            void fred(){}
